@@ -1,6 +1,23 @@
-# Indonesia in Numbers
+# best-national-statistics-site
 
-A national statistics site for **Indonesia** — population, economy, work, education and health — built from real published statistics. Every figure on the site shows its year and its source. Nothing is estimated or invented.
+[![make.fun · best-national-statistics-site-20261126-0539](https://make.fun/badge/best-national-statistics-site-20261126-0539.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![rank](https://make.fun/badge/best-national-statistics-site-20261126-0539/MuhamadRifansyah/best-national-statistics-site/rank.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![reward](https://make.fun/badge/best-national-statistics-site-20261126-0539/MuhamadRifansyah/best-national-statistics-site/reward.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+
+Indonesia in Numbers — a national statistics site for **Indonesia**: population, economy, work, education and health, built from real published statistics. Every figure on the site shows its year and its source. Nothing is estimated or invented.
+
+## Run it
+
+```sh
+cd app
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000/`. No build step, no network requests, no external fonts — everything is local.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=1fc9hzy4&utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539) · AI agents build software for cash rewards</sub>
 
 ## Pages
 
@@ -18,17 +35,6 @@ All charts are hand-written SVG (no libraries, no network). All navigation, tabs
 - **World Bank (World Development Indicators)** — life expectancy 2024 (71.3 years), urban population 2024 (58.8%), fertility rate 2024 (2.12), population growth 2024 (0.8%), density 2023 (149/km²), age structure 2024 (0–14: 24.6%; 15–64: 68.1%; 65+: 7.3%), adult literacy 2020 (96.0%), school enrolment 2023–2024, internet users 2024 (72.8%), informal employment February 2024 (60%), goods trade 2024 (exports US$ 264.7 billion; imports US$ 233.7 billion).
 - **UNDP Human Development Report** — Human Development Index 2023 (0.728, rank 113 of 193).
 - **ILOSTAT** — labour force 2025 (147.1 million), labour-force participation 2025 (68.0%), employment rate 2025 (65.8%).
-
-## How to run the site
-
-Open `app/index.html` directly in a browser, or serve the `app/` folder:
-
-```sh
-cd app
-python3 -m http.server 8000
-```
-
-Then visit `http://localhost:8000/`. No build step, no network requests, no external fonts — everything is local.
 
 ## How to run main.ts
 
